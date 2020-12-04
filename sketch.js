@@ -69,6 +69,8 @@ function setup() {
 function draw() {
   if(backgroundImg){
   background(backgroundImg); 
+  }else{
+  background("red")
   }
   textSize(20)
   fill("yellow")
